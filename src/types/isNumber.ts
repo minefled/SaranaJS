@@ -12,5 +12,5 @@
  *      isNumber(null)      -> false
  */
 export function isNumber(value:any):boolean {
-    return typeof value === "number";
+    return typeof value === "number" && value != NaN;
 }
