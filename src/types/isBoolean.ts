@@ -11,7 +11,6 @@
  *      isBoolean(false)            -> true
  *      isBoolean(0)                -> false
  */
-
- export function isBoolean(value:any):boolean {
+export function isBoolean(value:any):boolean {
     return (typeof value === "boolean");
 }
