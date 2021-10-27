@@ -1,13 +1,13 @@
 {
     "compilerOptions":{
         "module": "commonjs",
-       "target":"es5",
-       "lib":[
-          "es5"
+        "target":"es5",
+        "lib":[
+            "es5"
         ],
 
-        "outDir":"dist",
-        "rootDir":"src",
+        "outDir":"../dist/cjs/",
+        "rootDir":".",
 
         "allowJs":true,
         "strict":true,

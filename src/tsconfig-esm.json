@@ -1,0 +1,15 @@
+{
+    "compilerOptions":{
+        "module": "ES2015",
+        "target":"es6",
+
+        "outDir":"../dist/esm",
+        "rootDir":".",
+
+        "allowJs":true,
+        "strict":true,
+        "esModuleInterop":true,
+
+        "declaration": true
+    }
+}
