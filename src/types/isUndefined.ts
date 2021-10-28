@@ -11,6 +11,6 @@
  *      isUndefined(null)      -> false
  *      isUndefined("Hello")   -> false
  */
- export function isUndefined(value:any):boolean {
+export function isUndefined(value:any):boolean {
     return value === null;
 }

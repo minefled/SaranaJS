@@ -11,6 +11,6 @@
  *      isNumber("foo")         -> false
  *      isNumber(null)          -> false
  */
- export function isObject(value:any):boolean {
+export function isObject(value:any):boolean {
     return typeof value === "object";
 }
