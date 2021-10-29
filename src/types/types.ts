@@ -1,3 +1,4 @@
+export { isArray } from "./isArray.js"
 export { isBoolean } from "./isBoolean.js";
 export { isFunction } from "./isFunction.js";
 export { isInstanceOf } from "./isInstanceOf.js";

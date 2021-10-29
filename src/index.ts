@@ -1,4 +1,5 @@
 import {
+    isArray,
     isBoolean,
     isFunction,
     isInstanceOf,
@@ -26,6 +27,7 @@ export const sarana = {
     isUndefined,
     isObject,
     isFunction,
+    isArray,
 
     isInstanceOf,
 
