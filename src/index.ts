@@ -1,14 +1,22 @@
-import { isNumber } from "./types/isNumber.js";
-import { isString } from "./types/isString.js";
-import { isBoolean } from "./types/isBoolean.js";
-import { isNull } from "./types/isNull.js";
-import { isUndefined } from "./types/isUndefined.js";
-import { isObject } from "./types/isObject.js";
-import { isFunction } from "./types/isFunction.js";
-import { isInstanceOf } from "./types/isInstanceOf.js";
+import {
+    isBoolean,
+    isFunction,
+    isInstanceOf,
+    isNull,
+    isNumber,
+    isObject,
+    isString,
+    isUndefined
+} from "./types/types.js"
 
-import { now } from "./date-and-time/now.js";
-import { epoch } from "./date-and-time/epoch.js";
+import {
+    now,
+    epoch
+} from "./date-and-time/date-and-time.js";
+
+import {
+    matchesRegex
+} from "./string/string.js";
 
 export const sarana = {
     isNumber,
@@ -20,6 +28,8 @@ export const sarana = {
     isFunction,
 
     isInstanceOf,
+
+    matchesRegex,
 
     now,
     epoch

@@ -1,0 +1,1 @@
+export { matchesRegex } from "./matchesRegex.js";
