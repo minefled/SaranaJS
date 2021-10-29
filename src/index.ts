@@ -17,7 +17,9 @@ import {
 } from "./date-and-time/date-and-time.js";
 
 import {
-    matchesRegex
+    matchesRegex,
+    capitalize,
+    lowercase
 } from "./string/string.js";
 
 import {
@@ -42,6 +44,8 @@ export const sarana = {
     isInstanceOf,
 
     matchesRegex,
+    capitalize,
+    lowercase,
 
     concat,
 
