@@ -24,6 +24,10 @@ import {
     concat
 } from "./array/array.js";
 
+import {
+    mapNum
+} from "./math/math.js";
+
 export const sarana = {
     isNumber,
     isString,
@@ -40,6 +44,8 @@ export const sarana = {
     matchesRegex,
 
     concat,
+
+    mapNum,
 
     now,
     epoch
