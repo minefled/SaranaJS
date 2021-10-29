@@ -1,5 +1,6 @@
 export { isArray } from "./isArray.js"
 export { isBoolean } from "./isBoolean.js";
+export { isDate } from "./isDate.js"
 export { isFunction } from "./isFunction.js";
 export { isInstanceOf } from "./isInstanceOf.js";
 export { isNull } from "./isNull.js";
