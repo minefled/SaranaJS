@@ -19,6 +19,10 @@ import {
     matchesRegex
 } from "./string/string.js";
 
+import {
+    concat
+} from "./array/array.js";
+
 export const sarana = {
     isNumber,
     isString,
@@ -32,6 +36,8 @@ export const sarana = {
     isInstanceOf,
 
     matchesRegex,
+
+    concat,
 
     now,
     epoch

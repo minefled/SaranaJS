@@ -1,0 +1,1 @@
+export let concat = Array.prototype.concat;
