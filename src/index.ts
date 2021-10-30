@@ -9,27 +9,27 @@ import {
     isObject,
     isString,
     isUndefined
-} from "./types/types.js"
+} from "./types/_types.js"
 
 import {
     now,
     epoch
-} from "./date-and-time/date-and-time.js";
+} from "./date-and-time/_date-and-time.js";
 
 import {
     matchesRegex,
     capitalize,
     lowercase
-} from "./string/string.js";
+} from "./string/_string.js";
 
 import {
     concat,
     chunk
-} from "./array/array.js";
+} from "./array/_array.js";
 
 import {
     mapNum
-} from "./math/math.js";
+} from "./math/_math.js";
 
 export const sarana = {
     isNumber,
