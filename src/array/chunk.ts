@@ -4,6 +4,8 @@ import { isNumber } from "../types/isNumber.js";
 /**
  * Splits the input array into smaller chunks, each having the length of chunkSize
  * 
+ * @since 0.1
+ * 
  * @param input The array you want to split up
  * @param chunkSize The size of each chunk
  */

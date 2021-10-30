@@ -4,6 +4,8 @@ import { isObject } from "./isObject.js";
 /**
  * Returns true if the object is instance of the instance
  * 
+ * @since 0.1
+ * 
  * @param {Object} obj The object you want to the the instance check on
  * @param {Function} instance 
  * 

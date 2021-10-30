@@ -3,6 +3,8 @@ import { isInstanceOf } from "../types/isInstanceOf.js";
 /**
  * Returns a boolean indicating whether there is a pattern in the input string matching the expression
  * 
+ * @since 0.1
+ * 
  * @param str The string you want to search
  * @param expression The expression you want to search for
  */

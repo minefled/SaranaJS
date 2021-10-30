@@ -1,6 +1,8 @@
 /**
  * Maps the entered value (v) to the specified range
  * 
+ * @since 0.1
+ * 
  * @param v The value you want to map
  * @param in_min The smallest value that can come in your input
  * @param in_max The biggest number that can be your input
