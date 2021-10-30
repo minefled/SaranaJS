@@ -23,7 +23,8 @@ import {
 } from "./string/string.js";
 
 import {
-    concat
+    concat,
+    chunk
 } from "./array/array.js";
 
 import {
@@ -48,6 +49,7 @@ export const sarana = {
     lowercase,
 
     concat,
+    chunk,
 
     mapNum,
 
