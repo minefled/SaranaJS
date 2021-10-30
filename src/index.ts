@@ -25,7 +25,8 @@ import {
 
 import {
     concat,
-    chunk
+    chunk,
+    join
 } from "./array/_array.js";
 
 import {
@@ -54,6 +55,7 @@ export const sarana = {
 
     concat,
     chunk,
+    join,
 
     mapNum,
 
