@@ -32,6 +32,8 @@ import {
     mapNum
 } from "./math/_math.js";
 
+import { _version } from "./internal/version.js"
+
 export const sarana = {
     isNumber,
     isString,
@@ -56,7 +58,9 @@ export const sarana = {
     mapNum,
 
     now,
-    epoch
+    epoch,
+
+    _version
 };
 
 export default sarana;
