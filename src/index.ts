@@ -7,6 +7,7 @@ import {
     isNull,
     isNumber,
     isObject,
+    isRegExp,
     isString,
     isUndefined
 } from "./types/_types.js"
@@ -41,6 +42,7 @@ export const sarana = {
     isFunction,
     isArray,
     isDate,
+    isRegExp,
 
     isInstanceOf,
 

@@ -6,5 +6,6 @@ export { isInstanceOf } from "./isInstanceOf.js";
 export { isNull } from "./isNull.js";
 export { isNumber } from "./isNumber.js";
 export { isObject } from "./isObject.js";
+export { isRegExp } from "./isRegExp.js";
 export { isString } from "./isString.js";
 export { isUndefined } from "./isUndefined.js";
