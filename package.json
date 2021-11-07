@@ -1,14 +1,18 @@
 {
-    "name": "sarana.js",
+    "name": "sarana",
     "version": "1.0.0",
-    "description": "",
-    "main": "dist/index.js",
-    "types": "dist",
+    "description": "Sarana is an easy-to-use JS module with native typescript support with useful utilities.",
+    "main": "dist/cjs/index.js",
+    "types": "dist/cjs/",
     "scripts": {
         "build": "npx tsc",
         "build-and-watch": "npx tsc -w"
     },
-    "keywords": [],
+    "keywords": [
+        "utility",
+        "typescript",
+        "ts"
+    ],
     "author": "minefled",
     "license": "MIT",
     "dependencies": {
@@ -20,5 +24,13 @@
     "type": "commonjs",
     "devDependencies": {
         "webpack-cli": "^4.9.1"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/minefled/SaranaJS/SaranaJS.git"
+    },
+    "bugs": {
+        "url": "https://github.com/minefled/SaranaJS/issues"
+    },
+    "homepage": "https://github.com/minefled/SaranaJS#readme"
 }
