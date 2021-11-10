@@ -1,6 +1,6 @@
 {
     "name": "sarana",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Sarana is an easy-to-use JS module with native typescript support with useful utilities.",
     "main": "dist/cjs/index.js",
     "types": "dist/cjs/",
